@@ -1,0 +1,459 @@
+ /* Navbar */
+ .navbar-brand {
+   position: relative;   /* Define a posição relativa para elementos filhos */
+ }
+
+ #logo {
+   width: 50px;   /* Define a largura do logotipo */
+ }
+
+ #moviestar-title {
+   color: #FFF;   /* Define a cor do título */
+   position: absolute;   /* Define a posição absoluta para posicionamento personalizado */
+   bottom: 2px;   /* Define a distância inferior a partir do elemento pai */
+   font-size: 30px;   /* Define o tamanho da fonte */
+   left: 55px;   /* Define a distância da esquerda a partir do elemento pai */
+   font-weight: bold;   /* Define o peso da fonte */
+ }
+
+ #main-navbar {
+   background-color: #2F4F4F;   /* Define a cor de fundo da barra de navegação */
+  /*position: fixed;    Mantém a barra de navegação fixa no topo */
+   width: 100%;   /* Ocupa toda a largura */
+   top: 0;   /* Define o topo da barra de navegação para 0 */
+   z-index: 1000;   /* Para garantir que a barra superior esteja acima do conteúdo */
+ }
+
+ /* Move a barra de navegação para cima */
+ #navbar {
+   margin-top: 0px;   /* Ajuste conforme necessário para evitar sobreposição */
+ }
+
+ .index-page{
+  background-color: #E7E9ED;    /* Define a cor de fundo do conteúdo principal */
+    color: #333;    /* Define a cor do texto do conteúdo principal */
+    padding: 40px;    /* Adiciona preenchimento interno ao conteúdo principal */
+    margin-top: 0px;    /* Define a margem superior para acomodar a barra superior */
+    margin-left: 0%;    /* Define a margem esquerda do conteúdo principal */
+    padding-left: 20px;    /* Adiciona preenchimento à esquerda do conteúdo principal */
+    position: relative;    /* Define a posição relativa para o conteúdo principal */
+    
+  
+}
+
+ #search-form {
+   margin: 0 auto;   /* Centraliza o formulário horizontalmente */
+   background-color: #F5F5F5;   /* Define a cor de fundo do formulário de pesquisa */
+   border-radius: 5px;   /* Adiciona borda arredondada ao formulário */
+   width: 50%;   /* Define a largura do formulário */
+   margin-left: 180px;   /* Define a margem esquerda do formulário */
+ }
+
+ #search-form .form-control {
+   border: none;   /* Remove a borda do controle de formulário */
+   width: 90%;   /* Define a largura do controle de formulário */
+   box-shadow: none;   /* Remove a sombra do controle de formulário */
+ }
+
+ .navbar-nav {
+   justify-content: flex-end;   /* Alinha os itens da barra de navegação à direita */
+   width: 100%;   /* Ocupa toda a largura */
+ }
+
+ .navbar-nav .nav-item .nav-link {
+   color: #FFF;   /* Define a cor do texto do link na barra de navegação */
+   transition: .5s;   /* Adiciona uma transição suave */
+ }
+
+ .navbar-nav .nav-item .nav-link:hover {
+   color: #999;   /* Define a cor do texto do link quando passa o mouse por cima */
+ }
+
+ .bold {
+   font-weight: bold;   /* Define o peso da fonte como negrito */
+ }
+
+ .msg-container {
+   background-color: #E7E9ED;   /* Define a cor de fundo do container de mensagens */
+   padding: 15px;   /* Adiciona preenchimento interno */
+ }
+
+ .msg {
+   width: 60%;   /* Define a largura da mensagem */
+   margin: 0 auto;   /* Centraliza a mensagem horizontalmente */
+   padding: 10px;   /* Adiciona preenchimento interno à mensagem */
+   border: solid 1px #E7E9ED;   /* Adiciona uma borda sólida à mensagem */
+   text-align: center;   /* Centraliza o texto na mensagem */
+ }
+
+ .msg.error {
+   color: #842029;   /* Define a cor do texto de erro */
+   background-color: #F8D7DA;   /* Define a cor de fundo para mensagens de erro */
+   border-color: #F5C2C7;   /* Define a cor da borda para mensagens de erro */
+ }
+
+ .msg.success {
+   color: #0F5132;   /* Define a cor do texto de sucesso */
+   background-color: #D1E7DD;   /* Define a cor de fundo para mensagens de sucesso */
+   border-color: #BADBCC;   /* Define a cor da borda para mensagens de sucesso */
+ }
+
+ /* Home */
+ .section-title {
+   font-size: 24px;   /* Define o tamanho da fonte do título da seção */
+   border-left: 4px solid #FF8C00;   /* Adiciona uma borda esquerda colorida ao título */
+   padding-left: 12px;   /* Adiciona preenchimento à esquerda do título */
+   margin-top: 20px;   /* Define a margem superior do título */
+ }
+
+ .section-description {
+   color: #CCC;   /* Define a cor do texto da descrição da seção */
+   font-size: 18px;   /* Define o tamanho da fonte da descrição */
+ }
+
+ .card-title {
+   height: 3rem;   /* Define a altura do título do cartão */
+ }
+
+ .card-title a {
+   font-size: 16px;   /* Define o tamanho da fonte do título do cartão */
+   color: #FFF;   /* Define a cor do texto do título do cartão */
+ }
+
+ .fas.fa-star {
+   color: #FF8C00;   /* Define a cor do ícone de estrela */
+ }
+
+ .rating {
+   color: #CCC;   /* Define a cor do texto de classificação */
+ }
+
+ .rate-btn {
+   margin-bottom: 15px;   /* Adiciona margem inferior ao botão de classificação */
+   color: #5799EF;   /* Define a cor do texto do botão de classificação */
+   background-color: #333;   /* Define a cor de fundo do botão de classificação */
+   border-color: #333;   /* Define a cor da borda do botão de classificação */
+   width: 100%;   /* Ocupa toda a largura */
+   font-weight: bold;   /* Define o peso da fonte como negrito */
+ }
+
+ .rate-btn:hover {
+   background-color: #444;   /* Define a cor de fundo do botão de classificação ao passar o mouse por cima */
+   border-color: #444;   /* Define a cor da borda do botão de classificação ao passar o mouse por cima */
+ }
+
+ .empty-list {
+   text-align: center;   /* Centraliza o texto */
+   font-size: 18px;   /* Define o tamanho da fonte */
+   width: 100%;   /* Ocupa toda a largura */
+   font-weight: bold;   /* Define o peso da fonte como negrito */
+ }
+
+ /* Login / Register */
+ #auth-row {
+   justify-content: space-evenly;   /* Distribui os elementos igualmente no espaço disponível */
+ }
+
+ #login-container h2,
+ #register-container h2 {
+   text-align: center;   /* Centraliza o texto do título */
+   border-bottom: 2px solid #FF8C00;   /* Adiciona uma borda inferior colorida ao título */
+   width: 200px;   /* Define a largura do título */
+   margin: 0 auto;   /* Centraliza o título horizontalmente */
+   padding: 10px;   /* Adiciona preenchimento interno ao título */
+ }
+
+ #login-container form,
+ #register-container form {
+   max-width: 400px;   /* Define a largura máxima do formulário */
+   margin: 30px auto;   /* Define a margem do formulário */
+ }
+
+ .card-btn {
+   color: #000;   /* Define a cor do texto do botão */
+   background-color: #FF8C00;   /* Define a cor de fundo do botão */
+   border: 2px solid #FF8C00;   /* Adiciona uma borda ao botão */
+   width: 100%;   /* Ocupa toda a largura */
+ }
+
+ .card-btn:hover {
+   background-color: transparent;   /* Define a cor de fundo do botão ao passar o mouse por cima */
+   color: #FF8C00;   /* Define a cor do texto do botão ao passar o mouse por cima */
+   border-color: #FF8C00;   /* Define a cor da borda do botão ao passar o mouse por cima */
+ }
+
+ /* Edit Profile */
+ #profile-image-container,
+ .profile-image-container {
+   width: 150px;   /* Define a largura do contêiner de imagem de perfil */
+   height: 150px;   /* Define a altura do contêiner de imagem de perfil */
+   border: 6px solid #FF8C00;   /* Adiciona uma borda colorida ao contêiner de imagem de perfil */
+   border-radius: 100%;   /* Adiciona borda arredondada ao contêiner de imagem de perfil */
+   background-size: cover;   /* Define o tamanho da imagem de fundo */
+   background-position: center;   /* Define a posição da imagem de fundo */
+   margin: 15px auto;   /* Define a margem do contêiner de imagem de perfil */
+ }
+
+ .profile-image-container {
+   width: 70px;   /* Define a largura do contêiner de imagem de perfil para um tamanho diferente */
+   height: 70px;   /* Define a altura do contêiner de imagem de perfil para um tamanho diferente */
+ }
+
+ .page-description {
+   color: #999;   /* Define a cor do texto da descrição da página */
+ }
+
+ #bio {
+   max-width: 400px;   /* Define a largura máxima do campo de biografia */
+ }
+
+ .form-control.disabled {
+   background-color: #BBB;   /* Define a cor de fundo do controle de formulário desabilitado */
+ }
+
+ #change-password-container {
+   margin-top: 30px;   /* Define a margem superior para o contêiner de alteração de senha */
+ }
+
+ .edit-profile-page .card-btn,
+ #add-movie-container .card-btn,
+ #review-form .card-btn,
+ #edit-movie-form .card-btn {
+   width: auto;   /* Define a largura automática para esses botões */
+ }
+
+ /* Profile */
+ .profile-container {
+   justify-content: center;   /* Centraliza os elementos do contêiner de perfil horizontalmente */
+ }
+
+ .profile-container .profile-image {
+   margin: 20px auto;   /* Define a margem para a imagem de perfil */
+ }
+
+ .about-title {
+   color: #CCC;   /* Define a cor do título "Sobre" */
+ }
+
+ .profile-description {
+   max-width: 500px;   /* Define a largura máxima da descrição de perfil */
+   margin: 20px auto;   /* Define a margem para a descrição de perfil */
+ }
+
+ .author-name a {
+   color: #F5C518;   /* Define a cor do link para o nome do autor */
+ }
+
+ .actions-column {
+   max-width: 75px;   /* Define a largura máxima da coluna de ações */
+   text-align: center;   /* Centraliza o texto na coluna de ações */
+ }
+
+ .actions-column form {
+   display: inline-block;   /* Exibe o formulário como elemento de bloco em linha */
+ }
+
+ .edit-btn,
+ .delete-btn {
+   padding: 5px 10px;   /* Adiciona preenchimento interno aos botões de edição/exclusão */
+   border-radius: 5px;   /* Adiciona borda arredondada aos botões de edição/exclusão */
+   margin: 0 5px;   /* Define a margem entre os botões de edição/exclusão */
+   font-weight: bold;   /* Define o peso da fonte como negrito */
+   transition: .5s;   /* Adiciona uma transição suave */
+   border: none;   /* Remove a borda dos botões de edição/exclusão */
+ }
+
+ .edit-btn {
+   background-color: #0DCAF0;   /* Define a cor de fundo do botão de edição */
+   color: #FFF;   /* Define a cor do texto do botão de edição */
+ }
+
+ .edit-btn:hover {
+   background-color: transparent;   /* Define a cor de fundo do botão de edição ao passar o mouse por cima */
+   color: #2F4F4F;   /* Define a cor do texto do botão de edição ao passar o mouse por cima */
+   text-decoration: none;   /* Remove a decoração de texto ao passar o mouse por cima */
+ }
+
+ .delete-btn {
+   background-color: #DC3545;   /* Define a cor de fundo do botão de exclusão */
+   color: #FFF;   /* Define a cor do texto do botão de exclusão */
+ }
+
+ .delete-btn:hover {
+   background-color: transparent;   /* Define a cor de fundo do botão de exclusão ao passar o mouse por cima */
+   color: #DC3545;   /* Define a cor do texto do botão de exclusão ao passar o mouse por cima */
+   text-decoration: none;   /* Remove a decoração de texto ao passar o mouse por cima */
+ }
+
+ /* Search */
+ #search-title {
+   font-size: 40px;   /* Define o tamanho da fonte do título de pesquisa */
+ }
+
+ #search-result,
+ .back-link {
+   color: #F5C518;   /* Define a cor do texto do resultado de pesquisa e do link de retorno */
+ }
+
+ /* Footer */
+ #footer {
+   background-color: #2F4F4F;   /* Define a cor de fundo do rodapé */
+   color: #F5F5F5;   /* Define a cor do texto do rodapé */
+   text-align: center;   /* Centraliza o texto no rodapé */
+   padding: 10px 0;   /* Adiciona preenchimento interno ao rodapé */
+   width: 100%;   /* Ocupa toda a largura */
+   clear: both;   /* Limpa ambos os lados (float) */
+ }
+
+ #footer-content {
+   padding: 10px;   /* Adiciona preenchimento interno ao conteúdo do rodapé */
+ }
+
+ #social-container ul,
+ #footer-links-container ul {
+   list-style-type: none;   /* Remove os marcadores de lista */
+   padding: 0;   /* Remove o preenchimento externo */
+   margin: 0;   /* Remove as margens externas */
+ }
+
+ #social-container li,
+ #footer-links-container li {
+   display: inline-block;   /* Exibe os itens de lista em linha */
+   margin: 0;   /* Remove as margens externas */
+ }
+
+ #social-container li {
+   height: 40px;   /* Define a altura dos ícones de mídia social */
+   width: 40px;   /* Define a largura dos ícones de mídia social */
+   border-radius: 100%;   /* Adiciona borda arredondada aos ícones de mídia social */
+   transition: .5s;   /* Adiciona uma transição suave */
+   line-height: 3;   /* Define a altura da linha para centralizar o ícone verticalmente */
+ }
+
+ #social-container li:hover {
+   background-color: #333;   /* Define a cor de fundo dos ícones de mídia social ao passar o mouse por cima */
+ }
+
+ #social-container a,
+ #footer-links-container a {
+   color: #F5F5F5;   /* Define a cor do texto dos links de mídia social e de rodapé */
+   transition: .5s;   /* Adiciona uma transição suave */
+ }
+
+ #social-container li i {
+   font-size: 25px;   /* Define o tamanho da fonte dos ícones de mídia social */
+ }
+
+ #footer-links-container {
+   margin: 30px 0;   /* Define a margem superior e inferior do contêiner de links de rodapé */
+ }
+
+ /* Barra lateral esquerda */
+ #sidebar {
+   width: 150px;   /* Define a largura da barra lateral esquerda */
+   background-color: #2F4F4F;   /* Define a cor de fundo da barra lateral esquerda */
+   height: 110%;
+   overflow-y: auto;   /* Adiciona uma barra de rolagem vertical à barra lateral */
+   color: #FFF;   /* Define a cor do texto da barra lateral */
+   left: 0;   /* Define a posição esquerda da barra lateral */
+   top: 75px;   /* Define a posição superior da barra lateral abaixo da barra de navegação */
+   bottom: 0;    /* Altura da barra inferior */
+   margin-bottom: 20px;   /* Adiciona margem inferior à barra lateral */
+   position: absolute;   /* Mantém a barra lateral fixa */
+   z-index: 2;   /* Para garantir que a barra lateral esteja acima do conteúdo */
+ }
+
+ .sidebar-nav {
+   padding: 20px;   /* Adiciona preenchimento interno à navegação da barra lateral */
+   list-style-type: none;   /* Remove os marcadores de lista */
+ }
+
+ .sidebar-link {
+   text-decoration: none;   /* Remove a decoração de texto dos links da barra lateral */
+   color: #FFF;   /* Define a cor do texto dos links da barra lateral */
+   font-size: 18px;   /* Define o tamanho da fonte dos links da barra lateral */
+   display: block;   /* Exibe os links como elementos de bloco */
+   padding: 5px 0;   /* Adiciona preenchimento superior e inferior aos links da barra lateral */
+   transition: .5s;   /* Adiciona uma transição suave */
+ }
+
+ .sidebar-item {
+   color: #999;   /* Define a cor do texto dos itens da barra lateral */
+ }
+
+ .sidebar-link:hover {
+   color: #999;   /* Define a cor do texto dos links da barra lateral ao passar o mouse por cima */
+ }
+
+ /* Estilos para destacar o link ativo na barra lateral */
+ .sidebar-link.active {
+   background-color: #FF8C00;   /* Define a cor de fundo do link ativo na barra lateral */
+   font-weight: bold;   /* Define o peso da fonte como negrito para o link ativo */
+ }
+
+ /* Estilo para a barra lateral na página dashboard.php */
+  #sidebar {
+   width: 150px;   /* Seus estilos específicos para a barra lateral do dashboard aqui */
+ }
+
+ /* Ajuste de margem esquerda para o conteúdo principal na página dashboard.php */
+  #main-container-dashboard-page {
+   margin-left: 150px;   /* Largura da barra lateral + margem adicional, se necessário */
+ }
+
+ /* Ajuste de margem esquerda para o conteúdo principal na página dashboard.php */
+ .dashboard-content {
+   margin-left: 150px;   /* Largura da barra lateral + margem adicional, se necessário */
+ }
+ /* Conteúdo principal com margem para acomodar a barra lateral */
+ .dashboard-page {
+   background-color: #E7E9ED;   /* Define a cor de fundo do conteúdo principal */
+   color: #333;   /* Define a cor do texto do conteúdo principal */
+   padding: 40px;   /* Adiciona preenchimento interno ao conteúdo principal */
+   margin-top: 0px;   /* Define a margem superior para acomodar a barra superior */
+   margin-left: 0px;   /* Define a margem esquerda do conteúdo principal */
+   padding-left: 20px;   /* Adiciona preenchimento à esquerda do conteúdo principal */
+   position: relative;   /* Define a posição relativa para o conteúdo principal */
+   z-index: 1;   /* Para garantir que o conteúdo fique acima da barra lateral */
+ }
+
+ /* Ajuste de margem esquerda para o conteúdo principal na página editprofile.php */
+  #main-container-editprofile-page{
+   margin-left: 150px;   /* Largura da barra lateral + margem adicional, se necessário */
+ }
+
+ /* Ajuste de margem esquerda para o conteúdo principal na página editprofile.php */
+ .profile-content {
+   margin-left: 150px;   /* Largura da barra lateral + margem adicional, se necessário */
+ }
+ .edit-profile-page {
+   background-color: #E7E9ED;   /* Define a cor de fundo do conteúdo principal */
+   color: #333;   /* Define a cor do texto do conteúdo principal */
+   padding: 40px;   /* Adiciona preenchimento interno ao conteúdo principal */
+   margin-top: 0px;   /* Define a margem superior para acomodar a barra superior */
+   margin-left: 0px;   /* Define a margem esquerda do conteúdo principal */
+   padding-left: 20px;   /* Adiciona preenchimento à esquerda do conteúdo principal */
+   position: relative;   /* Define a posição relativa para o conteúdo principal */
+   z-index: 1;   /* Para garantir que o conteúdo fique acima da barra lateral */
+ }
+
+ /* Responsivo */
+ @media (max-width: 450px) {
+   #main-container {
+     padding: 20px;     /* Reduz o preenchimento interno do conteúdo principal em telas pequenas */
+   }
+
+   /* Home */
+   #search-form {
+     width: 100%;     /* Ocupa toda a largura em telas pequenas */
+     margin-left: 0;     /* Remove a margem esquerda em telas pequenas */
+   }
+
+   #search-form .form-control {
+     width: 85%;     /* Define a largura do controle de formulário em telas pequenas */
+   }
+
+   .msg {
+     width: 100%;     /* Define a largura das mensagens em telas pequenas */
+   }
+ }
